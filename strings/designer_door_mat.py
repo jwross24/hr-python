@@ -1,6 +1,5 @@
 if __name__ == '__main__':
-    N, M = input().split()
-    N, M = int(N), int(M)
+    N, M = map(int, input().rstrip().split())
 
 j_list = []
 
